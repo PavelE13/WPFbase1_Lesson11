@@ -1,0 +1,141 @@
+﻿<Window x:Class="WPFbase2_Lesson11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFbase2_Lesson11"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="1000" VerticalAlignment="Center" HorizontalAlignment="Center">
+    <StackPanel>
+        <Ellipse Height="30" Margin="460,50,502,0" Stroke="Black" RenderTransformOrigin="0.5,2.833">
+            <Ellipse.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0"/>
+                    <GradientStop Color="#FFF7ED16" Offset="0.146"/>
+                </LinearGradientBrush>
+            </Ellipse.Fill>
+        </Ellipse>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="20.706" Margin="432.246,0,0,0" Stretch="Fill" Stroke="Black" Width="28.754" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-44.744"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0"/>
+                    <GradientStop Color="#FFA9DEEE" Offset="0.146"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="14.625" Margin="435,-40,0,5" Stretch="Fill" Stroke="Black" Width="29.581" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="6.684"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0.05"/>
+                    <GradientStop Color="#FFCAE4F3" Offset="0.234"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="14.624" Margin="451.172,-80,0,-15" Stretch="Fill" Stroke="Black" Width="23.212" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="83.303"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0.084"/>
+                    <GradientStop Color="#FFCAEEFF" Offset="0.251"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="14.624" Margin="465,-50,0,-15" Stretch="Fill" Stroke="Black" Width="23.212" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="189.116"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0.008"/>
+                    <GradientStop Color="#FFCFF3F9" Offset="0.272"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="14.624" Margin="453,-25,0,-15" Stretch="Fill" Stroke="Black" Width="23.212" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="241.46"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0"/>
+                    <GradientStop Color="#FFB8ECFB" Offset="0.381"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M475,80 C475,80 474.5,78.794 479.5,73.794 484.5,68.794 489.49975,72.587998 484.49987,62.587996 479.5,52.587994 474.50012,67.245783 479.50004,57.245781 484.18746,47.87078 480.58034,46.04173 479.50004,47.245905 479.42802,47.326183 479.50004,41.937313 479.50004,42.249813" HorizontalAlignment="Left" Height="40.162" Margin="474.924,-20,0,0" Stretch="Fill" Stroke="#FF93F00E" Width="12.585" RenderTransformOrigin="0.5,0.5" OpacityMask="Black" StrokeThickness="2">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.394"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M480,105 C480,105 480,103.132 485,98.132 490,93.132 495,86.26401 495,86.26401 480,89.396006 484.2672,65.946913 484.2672,80.946907 484.2672,95.946901 484.2672,87.84112 479.2672,97.841238 474.2672,107.84136 475.00034,104.02206 475.00034,109.02212 475.00034,114.02218 480,105 480,105 z" HorizontalAlignment="Left" Height="16.589" Margin="484,-30,0,0" Stretch="Fill" Stroke="#FF93F00E" StrokeThickness="2" Width="11.75" RenderTransformOrigin="0.5,0.5">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.734,-0.082" StartPoint="-0.009,1.369">
+                    <GradientStop Color="#FF456330" Offset="0"/>
+                    <GradientStop Color="#FF79CF3E" Offset="0.661"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="14.891"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M460,60 C445,75 444.5,79.5 439.5,74.5 434.5,69.5 427.25,74.499847 437.25,69.499899 447.25,64.499952 459.5,56.750036 459.5,56.750036" HorizontalAlignment="Left" Height="14.624" Margin="462,-115,0,-15" Stretch="Fill" Stroke="Black" Width="23.212" RenderTransformOrigin="0.965,-0.483">
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="130.092"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="1.301,0.108" StartPoint="0.138,0.692">
+                    <GradientStop Color="#FFC4CD49" Offset="0.084"/>
+                    <GradientStop Color="#FFCAEEFF" Offset="0.251"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+    </StackPanel>
+</Window>
